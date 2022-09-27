@@ -1,0 +1,280 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+
+    color: rosybrown;
+}
+
+a:hover {
+    text-decoration-color: red;
+    color: orangered;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+}
+
+header .header_ul {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: 120px;
+}
+
+header .header_ul li {
+    position: relative;
+    margin: 8px;
+    float: left;
+}
+
+header .header_ul_ul {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: none;
+    list-style-type: none;
+}
+
+header .header_ul_ul li {
+    background-color: aqua;
+    margin: 4px;
+    float: none;
+    text-align: center;
+}
+
+header .header_ul_li:hover .header_ul_ul {
+    display: block;
+    z-index: 100;
+}
+
+.header_ul02 li {
+    border-radius: 10%;
+    margin-top: 20px;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    box-shadow: 4px 1px 2px black inset;
+    background-color: azure;
+}
+
+.header_ul03 {
+    list-style-type: none;
+}
+
+.header_ul03 li {
+    margin-top: 20px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    box-shadow: 4px 1px 2px black inset;
+    border-radius: 20%;
+    background-color: beige;
+    margin-left: 8px;
+}
+
+.header_ul03_li_ul {
+    display: none;
+}
+
+.header_ul03_li_ul li {
+    margin-top: 0px;
+    border-radius: 0%;
+    box-shadow: 0px 0px;
+    margin-left: 0px;
+}
+
+.header_ul03_li:hover .header_ul03_li_ul {
+    display: block;
+    z-index: 100;
+}
+
+.header_ul04 {
+    margin-left: 150px;
+
+}
+
+.header_ul04 li a {
+    margin-left: 18px;
+    font-size: 18px;
+
+
+}
+
+.header_ul04 li a {
+    color: white;
+}
+
+.header_ul05 li {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.article_div {
+    float: left;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.article_div .article_div01 {
+
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 46px;
+    left: -154px;
+
+}
+
+.article_div .article_div02 {
+    width: 500px;
+    height: 400px;
+
+    position: absolute;
+    top: 46px;
+    left: -228px;
+}
+
+.article_div .article_div03 {
+    width: 500px;
+    height: 400px;
+
+    position: absolute;
+    top: 46px;
+    left: -302px;
+}
+
+.article_div .article_div04 {
+    width: 500px;
+    height: 400px;
+
+    position: absolute;
+    top: 46px;
+    left: -376px;
+}
+
+
+
+.article_div_div {
+
+    float: left;
+    width: 50%;
+    height: 50%;
+    border: 2px solid whitesmoke;
+}
+
+.article_div_div img {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.now_div {
+    width: 500px;
+    height: 400px;
+
+    position: absolute;
+    top: 78px;
+    left: 0px;
+}
+
+.article_div_div_div {
+    float: left;
+    width: 23%;
+    height: 50%;
+
+    margin-top: 0px;
+}
+
+.article_right li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed black;
+    animation: move 3s linear 1s infinite backwards;
+}
+
+
+@keyframes move {
+    0% {}
+
+    20% {
+        transform: translateY(-30px);
+    }
+
+    30% {
+        transform: translateY(-70px);
+    }
+
+    50% {
+        transform: translateY(-110px);
+    }
+
+    70% {
+        transform: translateY(-150px);
+
+    }
+
+    90% {
+        transform: translateY(-190px);
+    }
+
+    100% {
+        transform: translateY(-220px);
+    }
+}
+
+.article_right_div01 ul {
+
+    margin-left: 80px;
+
+}
+
+.article_right_div01 ul li {
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 10%;
+}
+
+/* .article_right_div02 div ul li img {
+    vertical-align: top;
+ */
+
+/* middle bottom baseline */
+/* } */
+
+.right_div02 {
+    display: none;
+}
+
+.article_right_div02 {
+
+    display: block;
+}
+
+/* shopping 部分的css */
+.shopping_table01 tr td {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.shopping_table02 {
+    width: 98%;
+}
